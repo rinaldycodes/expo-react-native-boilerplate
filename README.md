@@ -1,50 +1,35 @@
-# Welcome to your Expo app 👋
+# Boilerplate and Starter for React Native, Expo, OTA Update and TypeScript
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+🚀 Boilerplate and Starter for React Native, Expo, OTA and TypeScript ⚡️
 
-## Get started
+### Features
 
-1. Install dependencies
+Developer experience first:
 
-   ```bash
-   npm install
-   ```
+- ⚡ [Expo](https://expo.dev) for mobile development
+- ⚛️ [React Native](https://reactnative.dev) for building native apps using React
+- 🔥 Type checking [TypeScript](https://www.typescriptlang.org)
+- 📁 File-based routing with Expo Router
+- 💖 Over The Air Updates With Expo [OTA](https://pagepro.co/blog/ota-updates-with-expo/)
+- 💖 jotai State Management
+- 💖 Auth Features
 
-2. Start the app
 
-   ```bash
-    npx expo start
-   ```
+### Requirements
 
-In the output, you'll find options to open the app in a
+- Node.js 14+ and npm
+- [iOS Simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Android Studio Emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [Expo GO](https://docs.expo.dev/workflow/android-studio-emulator/)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Setup OTA
+[OTA](https://pagepro.co/blog/ota-updates-with-expo/)
+npx expo install expo-updates
+eas build:configure
+eas update:configure
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+### Contributions
 
-When you're ready, run:
+Everyone is welcome to contribute to this project. Feel free to open an issue if you have question or found a bug. Totally open to any suggestions and improvements.
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
